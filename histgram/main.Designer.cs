@@ -99,6 +99,7 @@
             this.button_csv.TabIndex = 5;
             this.button_csv.Text = "csv出力";
             this.button_csv.UseVisualStyleBackColor = true;
+            this.button_csv.Click += new System.EventHandler(this.OnClick_csv出力);
             // 
             // label_color
             // 
@@ -136,6 +137,7 @@
             this.button_画像出力.TabIndex = 9;
             this.button_画像出力.Text = "画像出力";
             this.button_画像出力.UseVisualStyleBackColor = true;
+            this.button_画像出力.Click += new System.EventHandler(this.OnClick_画像出力);
             // 
             // trackBar_mask
             // 
